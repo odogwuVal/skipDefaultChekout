@@ -6,7 +6,7 @@ pipeline {
               buildingTag()
             }
             steps {
-                echo "Building master"
+                echo "Building from tag"
             }
         }
      }
