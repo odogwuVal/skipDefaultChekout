@@ -3,7 +3,7 @@ pipeline {
       stages {
         stage('build') {
             when {
-              BuildingTag()
+              buildingTag()
             }
             steps {
                 echo "Building master"
