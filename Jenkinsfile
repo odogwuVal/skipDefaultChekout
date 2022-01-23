@@ -1,9 +1,9 @@
 pipeline {
   agent any
       stages {
-        stage('build Master') {
+        stage('build Main') {
             when {
-               branch 'master' //executes when branch is master
+               branch 'main' //executes when branch is master
             }
             steps {
                 echo "Building master"
